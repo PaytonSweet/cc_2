@@ -27,3 +27,13 @@ employee.department = "Marketing";
 employee.position = "Manager";
 console.log(employee);
 
+// Task 4: Array of Objects
+
+let customers = [
+{name: "John Smith", email: "JohnSmith@gmail.com", purchaseAmount: 150},
+{name: "Peter Griffin", email: "birdistheword@gmail.com", purchaseAmount: 100},
+{name: "Markum Reed", email: "Reed@usf.edu", purchaseAmount: 2000}
+];
+let newCustomer = {name: "George Washington", email: "Georgey@gmail.com", purhcaseAmount: 1753};
+customers.push(newCustomer);
+console.log(customers);
