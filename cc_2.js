@@ -37,3 +37,19 @@ let customers = [
 let newCustomer = {name: "George Washington", email: "Georgey@gmail.com", purhcaseAmount: 1753};
 customers.push(newCustomer);
 console.log(customers);
+
+// Task 5: Object Methods
+
+let order = {
+    orderId: 1234,
+    customerName: "Jon Bellion",
+    amount: 150
+};
+let calculateTax = {
+    num1: 150,
+    num2: 0.10,
+    add: function() {
+        return this.num1 * this.num2;
+    }
+};
+console.log(order, calculateTax.add());
