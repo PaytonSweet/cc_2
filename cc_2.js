@@ -17,3 +17,13 @@ console.log(average);
 
 // Task 3: Working with Objects
 
+let employee = {
+    name: "Jane Smith",
+    age: 22,
+    department: "Sales",
+    isActive: true
+};
+employee.department = "Marketing";
+employee.position = "Manager";
+console.log(employee);
+
